@@ -1,4 +1,5 @@
-// distance between two points
+// write a program that prompts the user to enter the two points (x1,y1) and (x2,y2) and displays their distance between them
+
 import java.lang.Math;
 import java.util.Scanner;
 

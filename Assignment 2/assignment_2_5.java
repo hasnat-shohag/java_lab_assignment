@@ -46,9 +46,9 @@ public class assignment_2_5 {
         System.out.println("Enter the row size of square matrix");
         int m; m = sc.nextInt();
 
-        int[][] arr2 = new int[n][n];
-        for(int i = 0; i<n; i++){
-            for(int j = 0; j < n; j++){
+        int[][] arr2 = new int[m][m];
+        for(int i = 0; i<m; i++){
+            for(int j = 0; j < m; j++){
                 int in;in = sc.nextInt();
                 arr2[i][j] = in;
             }

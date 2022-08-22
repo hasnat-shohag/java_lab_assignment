@@ -31,7 +31,8 @@ public class assignment_2_7 {
                     } else {
                         System.out.println("It is not a bangladeshi number");
                     }
-                } else {
+                } 
+                else {
                     System.out.println("It is not a bangladeshi number");
                 }
             } 
@@ -53,10 +54,12 @@ public class assignment_2_7 {
                     }
                     if (f == 1) {
                         System.out.println("It is a bangladeshi number");
-                    } else {
+                    } 
+                    else {
                         System.out.println("It is not a bangladeshi number");
                     }
-                } else {
+                } 
+                else {
                     System.out.println("It is not a bangladeshi number");
                 }
             }

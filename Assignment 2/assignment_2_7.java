@@ -21,6 +21,7 @@ class operator{
 public class assignment_2_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        operator myObj = new operator();
         String number = sc.nextLine();
         String s = "13456789";
         String helper = "+8801";
@@ -28,28 +29,23 @@ public class assignment_2_7 {
         int len = number.length();
         if (len == 14 || len == 11) {
             if (len == 14) {
-                // System.out.println("ok");
                 int cnt = 0;
                 for (int i = 0; i < 5; i++) {
                     if (number.charAt(i) == helper.charAt(i)) {
                         cnt++;
                     }
                 }
-                // System.out.println(cnt);
                 if (cnt == 5) {
                     int f = 0;
                     for (int i = 0; i < 8; i++) {
                         if (number.charAt(5) == s.charAt(i)) {
                             f = 1;
+                            myObj.checkOperator(number.charAt(5));
+                            System.out.println("A bangladeshi number");
                             break;
                         }
                     }
-                    if (f == 1) {
-                        operator myObj = new operator();
-                        myObj.checkOperator(number.charAt(5));
-                        System.out.println("It is a bangladeshi number");
-                        
-                    } else {
+                    if (f == 0){
                         System.out.println("It is not a bangladeshi number");
                     }
                 } 
@@ -64,21 +60,17 @@ public class assignment_2_7 {
                         cnt++;
                     }
                 }
-                // System.out.println(cnt);
                 if (cnt == 2) {
                     int f = 0;
                     for (int i = 0; i < 8; i++) {
                         if (number.charAt(2) == s.charAt(i)) {
                             f = 1;
+                            myObj.checkOperator(number.charAt(2));
+                            System.out.println("A bangladeshi number");
                             break;
                         }
                     }
-                    if (f == 1) {
-                        operator myObj = new operator();
-                        myObj.checkOperator(number.charAt(2));
-                        System.out.println("It is a bangladeshi number");
-                    } 
-                    else {
+                    if (f == 0){
                         System.out.println("It is not a bangladeshi number");
                     }
                 } 

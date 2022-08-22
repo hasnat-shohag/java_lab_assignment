@@ -1,5 +1,23 @@
 import java.util.Scanner;
-
+class operator{
+    public void checkOperator(char ch){
+        if(ch == '1'){
+            System.out.println("Citycell");
+        }
+        else if(ch == '5'){
+            System.out.println("Teletalk");
+        }
+        else if(ch == '7' || ch == '3'){
+            System.out.println("Grameenphone");
+        }
+        else if(ch == '6' || ch =='8'){
+            System.out.println("Robi");
+        }
+        else{
+            System.out.println("Banglalink");
+        }
+    }
+}
 public class assignment_2_7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -27,7 +45,10 @@ public class assignment_2_7 {
                         }
                     }
                     if (f == 1) {
+                        operator myObj = new operator();
+                        myObj.checkOperator(number.charAt(5));
                         System.out.println("It is a bangladeshi number");
+                        
                     } else {
                         System.out.println("It is not a bangladeshi number");
                     }
@@ -53,6 +74,8 @@ public class assignment_2_7 {
                         }
                     }
                     if (f == 1) {
+                        operator myObj = new operator();
+                        myObj.checkOperator(number.charAt(2));
                         System.out.println("It is a bangladeshi number");
                     } 
                     else {

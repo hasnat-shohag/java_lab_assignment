@@ -42,8 +42,7 @@ public class assignment_2_7 {
                             f = 1;
                             myObj.checkOperator(number.charAt(5));
                             System.out.println("A bangladeshi number");
-                            break;
-                        }
+                            break;                    }
                     }
                     if (f == 0){
                         System.out.println("It is not a bangladeshi number");

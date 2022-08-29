@@ -17,7 +17,8 @@ public class _5_full_name_to_first_middle_and_last_name {
             if(s.charAt(i) == ' '){
                 idx++;
                 continue;
-            }
+            } 
+            
             res[idx] += s.charAt(i);
         }
         System.out.println("First Name: "+res[0]+"\nMiddle Name: "+res[1]+"\nLast Name: "+ res[2]);

@@ -15,7 +15,7 @@ class FlowLayoutImp{
         JTextField tf =new JTextField("Text");  
         fm.add(tf); 
 
-        JButton b = new JButton("Click Me");
+        JButton b = new JButton("Send");
         fm.add(b);
 
         fm.setSize(400,400);

@@ -1,4 +1,5 @@
 // Using Jframe Class 
+// Border Layout
 import java.awt.*;
 import javax.swing.*;
 
@@ -22,7 +23,7 @@ class Border{
     }
 }
 
-public class Assignment_3_3_a_b {
+public class Assignment_3_3_a_c {
     public static void main(String[] args) {
         new Border();
     }

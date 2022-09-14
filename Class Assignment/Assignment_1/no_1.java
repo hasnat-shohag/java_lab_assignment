@@ -26,10 +26,10 @@ class calculator extends JFrame {
         tf1.setBounds(150, 50, 150, 40);
         tf2.setBounds(150, 100, 150, 40);
 
-        l1.setBounds(150, 160, 200, 30);
-        l2.setBounds(150, 200, 200, 30);
-        l3.setBounds(150, 240, 200, 30);
-        l4.setBounds(150, 280, 200, 30);
+        l1.setBounds(60, 160, 200, 30);
+        l2.setBounds(60, 200, 200, 30);
+        l3.setBounds(60, 240, 200, 30);
+        l4.setBounds(60, 280, 300, 30);
 
         b1.setBounds(100, 340, 60, 40);
         b2.setBounds(170, 340, 60, 40);

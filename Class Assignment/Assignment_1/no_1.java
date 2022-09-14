@@ -16,8 +16,8 @@ class calculator extends JFrame {
         JTextField tf2 = new JTextField();
         JButton b1 = new JButton("+");
         JButton b2 = new JButton("-");
-        JButton b3 = new JButton("×");
-        JButton b4 = new JButton("÷");
+        JButton b3 = new JButton("*");
+        JButton b4 = new JButton("/");
         JLabel l1 = new JLabel("");
         JLabel l2 = new JLabel("");
         JLabel l3 = new JLabel("");

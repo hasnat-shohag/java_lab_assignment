@@ -7,6 +7,7 @@ import java.io.IOException;
 
 class tfClearUndo extends JFrame{
     String temp;
+    int x = 0;
     tfClearUndo(){
         setTitle("From Clear and Undo");
         JTextField tf = new JTextField();
@@ -24,14 +25,18 @@ class tfClearUndo extends JFrame{
         setVisible(true);
         b1.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                temp = tf.getText();
-                tf.setText("");
+                if(x==0){
+                    temp = tf.getText();
+                    tf.setText("");
+                    x++;
+                }
             }
         });
 
         b2.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 tf.setText(temp);
+                x = 0;
             }
         });        
     }

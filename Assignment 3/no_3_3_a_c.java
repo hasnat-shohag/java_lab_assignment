@@ -5,12 +5,12 @@ import javax.swing.*;
 
 class Border{
     Border(){
-        Frame fm = new JFrame();
-        fm.setLayout(new BorderLayout(10,10));
+        JFrame fm = new JFrame();
+        fm.setLayout(new BorderLayout(20,15));
 
-        Label l = new Label("Label");  
-        TextField tf = new TextField("Text");  
-        Button b = new Button("Send");
+        JLabel l = new JLabel("Label");  
+        JTextField tf =new JTextField("Text");  
+        JButton b = new JButton("Send");
 
         fm.add(l,BorderLayout.WEST); 
         fm.add(tf,BorderLayout.CENTER);  
@@ -21,7 +21,7 @@ class Border{
     }
 }
 
-public class Assignment_3_3_b_c {
+public class no_3_3_a_c {
     public static void main(String[] args) {
         new Border();
     }

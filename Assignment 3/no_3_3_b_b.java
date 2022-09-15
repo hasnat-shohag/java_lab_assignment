@@ -23,7 +23,7 @@ class FlowLayoutImp{
         fm.setVisible(true);
     }
 }
-public class Assignment_3_3_b_b{
+public class no_3_3_b_b{
     public static void main(String args[]){
        new FlowLayoutImp();
     }

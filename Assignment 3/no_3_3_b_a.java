@@ -2,7 +2,7 @@
 // Default Layout
 import java.awt.*;
 
-public class Assignment_3_3_b_a {
+public class no_3_3_b_a {
     public static void main(String[] args) {
         Frame fm = new Frame();
         fm.setTitle("Default Layout");

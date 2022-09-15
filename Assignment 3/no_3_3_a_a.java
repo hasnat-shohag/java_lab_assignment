@@ -2,7 +2,7 @@
 // Default Layout
 import javax.swing.*;
 
-public class Assignment_3_3_a_a {
+public class no_3_3_a_a {
     public static void main(String[] args) {
         JFrame fm = new JFrame();
 

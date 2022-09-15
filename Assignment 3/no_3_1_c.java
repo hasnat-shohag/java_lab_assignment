@@ -8,7 +8,7 @@ class JframeExtent extends JFrame{
     }
 }
 
-public class Assignment_3_1_c {
+public class no_3_1_c {
     public static void main(String[] args) {
         JframeExtent myFrame = new JframeExtent();
         myFrame.setVisible(true);

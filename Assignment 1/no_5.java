@@ -2,7 +2,7 @@
 // First Name, Middle Name, Last Name. Then print the three parts of the name in three different lines.
 import java.util.Scanner;
 
-public class _5_full_name_to_first_middle_and_last_name {
+public class no_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Full Name: ");

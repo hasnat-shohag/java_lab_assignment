@@ -7,7 +7,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class _3_pow_a_b {
+public class no_3 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("a   b   pow(a,b)");

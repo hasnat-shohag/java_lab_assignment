@@ -5,7 +5,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class _4_future_investment_value {
+public class no_4 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter investment amount: ");

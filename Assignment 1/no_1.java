@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class _1_minutes_to_day_years {
+public class no_1 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of minutes");

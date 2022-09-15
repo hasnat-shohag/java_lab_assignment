@@ -3,7 +3,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-public class _2_distance_2_points{
+public class no_2{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         float x1,x2,y1,y2;

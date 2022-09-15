@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class assignment_2_7 {
+public class no_2_7 {
     public static void main(String[] args) {
         System.out.println("Please enter the phone number");
         Scanner sc = new Scanner(System.in);

@@ -19,7 +19,7 @@ class palindromes {
     }
 }
 
-public class assignment_2_4 {
+public class no_2_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n;

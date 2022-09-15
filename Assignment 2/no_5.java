@@ -21,7 +21,7 @@ class MatProperties{
         return true;
     }
 }
-public class no_2_5 {
+public class no_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the row size of square matrix");

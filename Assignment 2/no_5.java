@@ -3,7 +3,7 @@ class MatProperties{
     public boolean isScalar(int n, int[][] arr){
         for(int i = 0; i<n; i++){
             for(int j = 0; j<n; j++){
-                if((i != j && arr[i][j] != 0) ||  ( i == j && arr[i][j] == 0) || (i == j && i+1<n && arr[i][j] != arr[i+1][j+1])){
+                if((i != j && arr[i][j] != 0) ||  (i == j && i+1<n && arr[i][j] != arr[i+1][j+1])){
                     return false;
                 }
             }
